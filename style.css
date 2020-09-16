@@ -1,0 +1,366 @@
+html{
+    font-family:"open sans";
+
+}
+
+
+*{
+    margin:0 auto;
+    padding:0;
+    list-style:none;
+    text-decoration:none;
+    outline:none;
+    
+}
+
+
+.header{
+    
+    height:124px;
+    width:100%;
+    background-color:rgb(35,40,45);
+    display:block;
+    padding-right:180px;
+    padding-left:180px;
+}
+
+
+
+
+
+::placeholder{
+    color:rgb(87,104,93);
+    font-size:13px;
+    padding-left:2px;
+} 
+
+
+form.search-box{
+    display:flex;
+    background-color:rgb(25,30,35);
+    float:right;
+    width:90%;
+    padding:1.5px;
+    padding-left:0px;
+    border-radius:;
+    position:relative;
+    top:15px;
+    margin:auto;
+    max-width:300px;
+    border-bottom:1px solid rgb(66, 65, 65);
+}
+
+form.search-box input[type=text]{
+    flex-grow:2;
+    background-color:rgb(25,30,35);
+    border:none;
+    color:rgb(163,163,162);
+    font-size:12px;
+    padding:5px;
+    
+}
+
+form.search-box button{
+    background:rgb(25,30,35);
+    color:white;
+    border:none;
+    width:10%;
+    outline:none;
+}
+
+form.search-box button:active{
+    background-color:rgb(21, 22, 24);
+}
+
+
+
+.fab{
+    font-size:50px;
+}
+
+.logo{
+    display:inline-flex;
+    flex-wrap:wrap;
+
+
+    color:rgb(204,207,211);
+    cursor:pointer;
+}
+
+.logo span{
+
+    font-family:serif;
+    font-variant:small-caps;
+    font-size:36px;
+    font-weight:450;
+    
+} 
+
+
+
+
+.top-header{
+    position:relative;
+    top:20px;
+}
+
+.bottom-header{
+    display:inline-flex;
+    position:relative;
+    top:26px;
+   
+}
+
+
+.bottom-header button{
+   height:36px;
+    position:relative;
+    left:165px;
+    border-radius:2.5px;
+   background-color:rgb(41,133,186);
+
+   
+ 
+    
+} 
+
+.bottom-header button, .get-started button:hover{
+    background-color:rgb(32, 146, 212);
+}
+
+
+.bottom-header button  span{
+    font-size:12px;
+    padding:10px;
+   
+ }
+
+
+.navbar ul li{
+    display:inline;
+   
+}
+
+.navbar ul li a{
+    color:rgb(231,231,211);
+    font-size:12px;
+    font-weight:600;
+    text-decoration:none;
+    margin-right:20px;
+}
+
+.navbar ul li a:hover{
+    color:rgb(65, 163, 224);
+}
+
+
+.intro-section-1{
+    text-align:center;
+    height:295px;
+    background-color:rgb(29,115,170);
+    color:rgb(255, 255, 255);
+    
+}
+
+.intro-section-1 .first{
+    font-size:69px;
+    font-family:"Open Sans light";
+    
+}
+
+.intro-section-1 .second{
+    font-size:24px;
+    font-family:"Open Sans light";
+}
+
+.intro-section-1 .together{
+    padding:53px;
+}
+
+.intro-section-2{
+    text-align:center;
+    font-family:"Open sans light";
+}
+
+
+.intro-section-2 .first{
+    padding-top:65px;
+}
+
+
+.intro-section-2 .text{
+    padding-top:65px;
+}
+
+
+.container{
+    height:382px;
+    width:800px;
+    
+    text-align:center;
+    overflow:hidden;
+}
+
+.container .dashboard-mobile{
+    height:350px;
+    width:180px;
+    position:relative;
+    float:right;
+    right:50px;
+    top:100px
+}
+
+.container .dashboard{
+    object-fit:cover;
+    max-width:800px;
+    position:relative;
+    left:70px;
+    z-index:-1;
+}
+
+
+.parallax-bg{
+    background:url("https://s.w.org/images/home/collage-min.jpg?6") center top;
+    
+    background-attachment:fixed;
+    width:100%;
+    height:600px;
+    background-size:cover;
+    
+ 
+  
+}
+
+.discover{
+    text-align:center;
+    padding-top:60px;
+    padding-bottom:50px;
+    font-size:18px;
+}
+
+
+
+.iconify{
+    display:block;
+    font-size:50px;
+    /* padding-top:50px; */
+    color:rgb(0,160,210);
+}
+
+.features{
+    text-align:center;
+    font-family:"open sans light";
+    color:rgb(50, 55,60);
+}
+
+/* .features h2{
+    font-size:44px;
+} */
+
+h2{
+    font-size:44px;
+}
+
+.features ul{
+
+    padding-top:50px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:stretch;
+    align-content:center;
+    
+    /* margin:0 176px; */
+    width:840px;
+    /* border:1px solid black; */
+    height:400px;
+    
+}
+
+
+.features ul li{
+    border-right:1px solid rgb(238,238,238);
+    border-bottom:1px solid rgb(238,238,238);
+   width:25%;
+    height:200px;
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+    padding-top:50px;
+}
+
+.features ul li:nth-child(n+5){
+    border-bottom:none;
+}
+
+.features ul li:nth-child(4n){
+    border-right:none;
+}
+
+
+.text-after-features{
+    padding-top:70px;
+}
+
+
+.screen{
+    background:url("https://s.w.org/images/home/community-2.jpg?3");
+    height:500px;
+    color:white;
+    font-family:"Open sans light";
+
+}
+
+
+.screen .container span{
+  
+    font-size:44px;
+}
+
+.screen .container{
+   
+    text-align:left;
+    position:relative;
+    top:250px;
+    padding-left:120px;
+    
+
+}
+
+.screen .container button{
+   
+    font-size:15px;
+    text-align:center;
+    background-color:white;
+    width:268px;
+}
+
+.screen .container span, .subheading button{
+    padding-top:20px;
+    
+}
+
+.screen .container .subheading{
+    font-size:23px;
+
+}
+
+.get-started{
+    text-align:center;
+}
+
+.get-started button{
+    height:44px;
+    border-radius:2.5px;
+    background-color:rgb(29,115,170);
+    border:0px solid white;
+
+   
+}
+
+
+.get-started button span{
+    padding:10px 30px;
+    font-size:18px;
+    color:white;
+}
