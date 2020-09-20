@@ -1,5 +1,6 @@
 html{
     font-family:"open sans Light";
+   
 
 }
 
@@ -13,6 +14,7 @@ html{
     font-family:"open sans Light";
     
 }
+
 
 
 .header{
@@ -93,7 +95,6 @@ form.search-box button:active{
     font-family:serif;
     font-variant:small-caps;
     font-size:36px;
-    font-weight:450;
     
 } 
 
@@ -385,83 +386,6 @@ form.search-box button:active{
     
 }
 
-/* 
-.footer1{
-    padding-top:5em;
-    border:1px solid blACK;
-    margin:0px 140px;
-    display:grid;
-    grid-template-columns:1fr 2fr 1fr 1fr;
-    
-
-}
- .two{
-    width:300px;
-}
-
-.footer1 div{
-    border:1px solid green;
-    font-size:13px;
-}
-
-
-.footer1 .two div{
-    
-    padding-top:10px;
-   
-}
-
-.footer1 span{
-    font-family:sans-serif;
-    font-weight:700;
-    font-size:14px;
-    border:1px solid red;
-
-   
-    
-}
-
-
-.footer1 div a{
-    text-decoration: none;
-}
-
-.footer1 span:hover{
-    color:rgb(255, 89, 0);
-    text-decoration:none;
-}
-
-.footer1 span three:hover{
-    color:black;
-}
-.topic2 , .topic4{
-    color:rgb(85, 154, 206);
-    
-}
-
-.topic1{
-    color:rgb(39,124,169);
-}
-
-.topic2{
-    width:100%;
-}
-
-.link{
-    font-size:14px;
-    
-}
-
- */
-
-
-
-
-
-
-
-
-
 
 
  .footer1{
@@ -469,10 +393,7 @@ form.search-box button:active{
   
     display:grid;
     grid-template-columns:1fr 1.5fr 1.5fr 1fr;
-    grid-column-gap:1em;
-   
-    
-   
+    grid-column-gap:3em;
   }
 
 
@@ -487,7 +408,7 @@ form.search-box button:active{
 
   .topic2,.topic3{
     position:relative;
-    right:60px;
+    right:50px;
   }
 
 
@@ -499,8 +420,9 @@ form.search-box button:active{
 
   .topic3{
       position:relative;
-      right:90px;
-      font-weight:909;
+      right:80px;
+      font-weight:900;
+     
   }
 
   .topic5,.topic6{
@@ -509,6 +431,8 @@ form.search-box button:active{
   
   .footer1 div{
       padding-top:0.5em;
+      font-family:sans-serif;
+      color:rgb(111, 108, 108);
   }
   
   .footer1 div a{
@@ -565,7 +489,7 @@ form.search-box button:active{
     border-left:none;
     border-top:none;
     font-size:15px;
-    width:50px;
+    width:60px;
     height:30px;
     border-radius:80px;
   
@@ -574,6 +498,24 @@ form.search-box button:active{
     
   }
   
+
+  .step-numb2,.step-numb3
+  {
+    color:white;
+    text-align:center;
+    background-color:rgb(203,203,203);
+    box-shadow:2px 2px 4px grey;
+    border-bottom:2px solid white;
+    border-right:2px solid white;
+    border-left:none;
+    border-top:none;
+    font-size:15px;
+    width:90px;
+    height:33px;
+    border-radius:80px;
+    margin-right:8px;
+    
+  }
    
 
 
@@ -582,8 +524,11 @@ form.search-box button:active{
     /* border:1px solid black; */
       display:grid;
       grid-template-columns:repeat(6,1fr);
-      font-size:13px;
-      padding:20px 0px;
+      font-size:13.5px;
+      font-weight:bold;
+      color:rgb(30, 146, 218);
+    
+     
     
    
       
@@ -593,8 +538,9 @@ form.search-box button:active{
   .footer2 div.column1,div.column2,div.column3,div.column4,div.column5,div.column6{
       display:grid;
       grid-template-rows:1fr 1fr 1fr ;
-
       grid-row-gap:2px;
+
+
   }
 
   .footer1,.footer2{
@@ -603,12 +549,12 @@ form.search-box button:active{
   
 
   .footer2-bg{
+      border-top:1px solid rgb(220, 219, 219);
       width:100%;
-      background-color:#ddd;
+      background-color:rgb(245, 244, 244);
       margin:0;
       margin-top:60px;
-      padding-top:40px;
-      padding-bottom:100px;
+      padding-top:18px;
+      padding-bottom:40px;
   }
-  
   
